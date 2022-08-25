@@ -114,7 +114,7 @@ function checkrel(){
     else if(s=="a")
     {
         document.getElementById("img-id").src="images/a.jpg";
-        var p="There Is Just ATTRACTION BETWEEB "+n1+" and "+n2;
+        var p="There Is Just ATTRACTION BETWEEN "+n1+" and "+n2;
         document.getElementById("p1").innerHTML=p;
     }
     else if(s=="m")
