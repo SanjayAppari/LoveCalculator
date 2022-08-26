@@ -32,7 +32,7 @@ function checkrel(){
     let c=0;
     for(let i=0;i<n1.length;i++)
     {
-            if(m2[n1[i]]!=undefined){
+            if(m2[n1[i]]!=undefined && m1[n1[i]]!=undefined){
             if(m1[n1[i]]==m2[n1[i]])
             {
                 m1[n1[i]]=undefined;
